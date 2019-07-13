@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>
+
+</title>
+</head>
+
+<body>
+<table>
+    <tr>
+        <th>
+            S.no 
+        </th>
+        <th>
+            Topic
+        </th>
+        <th>
+            Link
+        </th>
+        <td>
+            {% for data in datas %}
+                <tr>
+                    <td>
+                        {{data[0]}}
+                        
+                    </td>
+                    <td>
+                        {{data[1]}}
+                    </td>
+                    <td>
+                        {{data[2]}}
+                    </td>
+
+                </tr>
+            {% endfor %}    
+        </td>
+    </tr>
+</table>
+
+</body>
+
+</html>
